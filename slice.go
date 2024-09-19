@@ -7,4 +7,14 @@ func main() {
 	for i := 0; i < len(slice); i++ {
 		println(slice[i])
 	}
+
+	println("------------------------------")
+
+/*	for i := range slice {
+		println(i, slice[i])
+	}*/
+
+	for key, value := range slice {
+		println(key, value)
+	}
 }

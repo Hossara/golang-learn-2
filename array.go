@@ -24,4 +24,10 @@ func main() {
 	for i := 0; i < len(arr2); i++ {
 		println(arr2[i])
     }
+
+	println("------------------------------")
+
+	for i := range arr1 {
+		println(i, arr1[i])
+	}
 }
